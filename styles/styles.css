@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(70, 51, 51);
+    display: flex;
+    justify-content: center;
+}
+
+.img-container{
+    display: inherit;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.img-container img {
+    margin: 5px  0;
+    width: 500px;
+    height: 300px;
+}
+
+.parrafos {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
